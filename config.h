@@ -70,7 +70,7 @@ static const struct arg args[] = {
 	{ wifi_essid,	" %s @ ",		"wlan0" },
 	{ wifi_perc,	"%3s%%   ",		"wlan0" },
 	{ run_command,	" %4s   ",		"amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
-	{ battery_perc,	" %3s%% | ",	"BAT1" },
+	// { battery_perc,	" %3s%% | ",	"BAT1" },
 	{ datetime,	"%s   ",           	"%F %H:%M" },
 	{ username,	"%s ",			NULL },
 };
